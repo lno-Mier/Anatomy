@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #0a0909;
+			transform-style: preserve-3d;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+		.header{
+			background-position: center;
+			box-sizing: border-box;
+			transform-style: inherit;
+			background-color: #0a0909;
+		}
+		.header::before{
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+			transform-origin: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transition: 1s;
+			transform: translateZ(-1px) scale(2);
+		}
+		header img{
+			width: 690px;
+			margin-left: 1000px;
+			margin-top: 120px;
+			position: absolute;
+		}
+		header h1{
+			position: fixed;
+			color: #fff;
+			font-size: 150px;
+			margin-left: 120px;
+			margin-top: 160px;
+			font-family: 'Tilt Warp', cursive;
+		}
+		header h2{
+			position: fixed;
+			color: #fff;
+			font-size: 20px;
+			margin-left: 120px;
+			margin-top: 320px;
+			font-family: 'Tilt Warp', serif;
+			width: 600px;
+		}
+		.content_div_block{
+			background-color: #0a0909;
+			height: 2600px;
+		}
+		/*тут начинаются кнопки и эфекты наведения*/
+		.button_menu{
+			font-family: 'Tilt Warp', serif;
+			color: #fff;
+			font-size: 20px;
+			position: fixed;
+			height: 50px;
+			background-color: #0a0909;
+			border: 1px solid #ffffff;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 80px;
+			transition: all linear 0.3s;
+		}
+		.button_menu:hover{
+			font-size: 30px;
+			background-color: #ffffff;
+			color: #0a0909;
+		}
+		.button_menu:focus::before{
+			content: '';
+			min-height: 100vh;
+			position: fixed;
+			width: 300px;
+			background-color: #ffffff;
+			margin-left: -120px;
+			margin-top: -25px;
+			border-radius: 0px 10px 10px 0px;
+					}
+		.buttons_instrument{
+			position: fixed;
+			background-color: #0a0909;
+			border: 1px solid #ffffff;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 1700px;
+			color: #fff;
+			font-family: 'Tilt Warp', serif;
+			font-size: 20px;
+			height: 50px;
+			transition: all linear 0.3s;
+		}
+		.buttons_instrument:hover{
+			font-size: 30px;
+			background-color: #ffffff;
+			color: #0a0909;
+		}
+		.buttons_instrument1{
+			position: fixed;
+			background-color: #0a0909;
+			border: 1px solid #ffffff;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 1510px;
+			color: #fff;
+			font-family: 'Tilt Warp', serif;
+			font-size: 20px;
+			height: 50px;
+			transition: all linear 0.3s;
+		}
+		.buttons_instrument1:hover{
+			font-size: 30px;
+			background-color: #ffffff;
+			color: #0a0909;
+		}
+		.buttons_instrument2{
+			position: fixed;
+			background-color: #0a0909;
+			border: 1px solid #ffffff;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 1300px;
+			color: #fff;
+			font-family: 'Tilt Warp', serif;
+			font-size: 20px;
+			height: 50px;
+			transition: all linear 0.3s;
+		}
+		.buttons_instrument2:hover{
+			font-size: 30px;
+			background-color: #ffffff;
+			color: #0a0909;
+		}
+		.size{
+			width: 1600px;
+			margin-top: 1000px;
+			margin-left: -100px;
+			position: fixed;
+		}
+		.Da-vin{
+			position: fixed;
+			margin-top: 1800px;
+			margin-left: 800px;
+		}
+		.Da-vin-head{
+			position: fixed;
+			margin-top: 1800px;
+			margin-left: 100px;
+		}
+		.size-leo-anatomy{
+			width: 600px;
+			position: fixed;
+			margin-top: 1000px;
+			margin-left: 1200px;
+			opacity: 0.2;
+		}
+		.footer{
+			background-color: #444444;
+			font-family: 'Tilt Warp' serif;
+			height: 160px;
+			display: flex;
+			align-items: flex-end;
+		}
