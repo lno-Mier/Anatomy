@@ -70,7 +70,6 @@
 			transition: all linear 0.3s;
 		}
 		.button_menu:hover{
-			font-size: 30px;
 			background-color: #ffffff;
 			color: #0a0909;
 		}
@@ -95,10 +94,9 @@
 			font-family: 'Tilt Warp', serif;
 			font-size: 20px;
 			height: 50px;
-			transition: all linear 0.3s;
+			transition: 0.3s;
 		}
 		.buttons_instrument:hover{
-			font-size: 30px;
 			background-color: #ffffff;
 			color: #0a0909;
 		}
@@ -116,7 +114,6 @@
 			transition: all linear 0.3s;
 		}
 		.buttons_instrument1:hover{
-			font-size: 30px;
 			background-color: #ffffff;
 			color: #0a0909;
 		}
@@ -134,7 +131,6 @@
 			transition: all linear 0.3s;
 		}
 		.buttons_instrument2:hover{
-			font-size: 30px;
 			background-color: #ffffff;
 			color: #0a0909;
 		}
