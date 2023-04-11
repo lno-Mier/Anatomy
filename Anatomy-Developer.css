@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Tilt Warp', serif;
+	overflow-x: hidden;
+	transform-style: preserve-3d;
+}
+header{
+	height:100vh;
+	background-size: cover;
+	background-image: url("https://images.wallpaperscraft.ru/image/single/chashka_kofe_knigi_156306_1280x720.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+}
+header h1{
+	color: #ffffff;
+	position: fixed;
+	font-size: 70px;
+}
+.div_container{
+	height: 900px;
+	width: 100vw;
+	background-color: #C2A97D;
+	position: absolute;
+	font-family: 'Tilt Warp' cursive;
+}
+.div_mier_developer{
+	margin-top: 1%;
+}
