@@ -37,6 +37,37 @@ body{
 		font-size: 20px;
 		margin-left: 47px;
 	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 7px;
+		height: 25px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 5px;
+		margin-left: 10px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instrument-buttons{
+		display: none;
+	}
+	.first-image{
+		position: fixed;
+		width: 400px;
+		margin-top: 70px;
+		margin-left: -60px;
+	}
+	.second-image{
+		position: fixed;
+		width: 310px;
+		margin-top: 250px;
+		margin-left: -270px;
+	}
 }
 @media screen and (min-width: 768px){
 	.brain-image{
@@ -63,6 +94,37 @@ body{
 		color: #fff;
 		font-size: 60px;
 		margin-left: 47px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 25px;
+		height: 50px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 10px;
+		margin-left: 15px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instrument-buttons{
+		display: none;
+	}
+	.first-image{
+		position: fixed;
+		width: 800px;
+		margin-top: 90px;
+		margin-left: -110px;
+	}
+	.second-image{
+		position: fixed;
+		width: 670px;
+		margin-top: 390px;
+		margin-left: -640px;
 	}
 }
 @media screen and (min-width: 1024px){
@@ -92,6 +154,116 @@ body{
 		font-size: 80px;
 		margin-left: 47px;
 	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 35px;
+		height: 75px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 10px;
+		margin-left: 15px;
+		transition: all linear 0.3s;
+		position: fixed;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instruments{
+		display: flex;
+	}
+	.instrument-buttons{
+		justify-content: end;
+		display: flex;
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+	}
+	.instrument{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 20px;
+		height: 40px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-right: 15px;
+		margin-top: 15px;
+		transition: all linear 0.3s;
+	}
+	.instrument:hover{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+}
+@media screen and (min-width: 1440px){
+	.brain-image{
+		width: 612px;
+		margin-left: 414px;
+		margin-top: 120px;
+	}
+	.wow-image{
+		position: fixed;
+		width: 1380px;
+		margin-top: 20px;
+		margin-left: 0px;
+		z-index: 1;
+	}
+	.mier-image{
+		width: 710px;
+		margin-left: 20px;
+		z-index: 2;
+		position: fixed;
+	}
+	.text-for-header{
+		font-family: 'Tilt Warp', cursive;
+		color: #fff;
+		font-size: 120px;
+		margin-left: 17px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 35px;
+		height: 75px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 10px;
+		margin-left: 15px;
+		transition: all linear 0.3s;
+		position: fixed;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instruments{
+		display: flex;
+	}
+	.instrument-buttons{
+		justify-content: end;
+		display: flex;
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+	}
+	.instrument{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 20px;
+		height: 40px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-right: 15px;
+		margin-top: 15px;
+		transition: all linear 0.3s;
+	}
+	.instrument:hover{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
 }
 @media screen and (min-width: 2560px){
 	.brain-image{
@@ -119,5 +291,55 @@ body{
 		color: #fff;
 		font-size: 180px;
 		margin-left: 170px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 70px;
+		height: 140px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 30px;
+		margin-left: 30px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instruments{
+		display: flex;
+	}
+	.instrument-buttons{
+		justify-content: end;
+		display: flex;
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+	}
+	.instrument{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 43px;
+		height: 76px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-right: 10px;
+		margin-top: 15px;
+		transition: all linear 0.3s;
+	}
+	.instrument:hover{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.dropdown-menu{
+		width: 400px;
+		height: 330px;
+		border-radius: 10px;
+	}
+	.dropdown-item{
+		font-size: 44px;
+		margin-top: 4px;
 	}
 }
