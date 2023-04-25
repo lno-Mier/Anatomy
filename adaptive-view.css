@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0a0909;
+	transform-style: preserve-3d;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.adaptivetes-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.dropdown-menu{
+	font-family: 'Tilt Warp', cursive;
+}
+.info-images{
+	display: flex;
+	justify-content: space-between;
+}
+@media screen and (min-width: 320px){
+	.header-text-adaptive{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		margin-left: 10px;
+	}
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 13px;
+	}
+	.scull-jpg-adaptive{
+		margin-top: 20px;
+		width: 160px;
+		margin-left: 80px;
+		margin-bottom: 20px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 7px;
+		height: 25px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 5px;
+		margin-left: 10px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instrument-buttons{
+		display: none;
+	}
+	.first-image{
+		position: fixed;
+		width: 400px;
+		margin-top: 70px;
+		margin-left: -60px;
+	}
+	.second-image{
+		position: fixed;
+		width: 310px;
+		margin-top: 250px;
+		margin-left: -270px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.header-text-adaptive{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	.scull-jpg-adaptive{
+		display: block;
+		margin-top: 20px;
+		width: 430px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 25px;
+		height: 50px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 10px;
+		margin-left: 15px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instrument-buttons{
+		display: none;
+	}
+	.first-image{
+		position: fixed;
+		width: 800px;
+		margin-top: 90px;
+		margin-left: -110px;
+	}
+	.second-image{
+		position: fixed;
+		width: 670px;
+		margin-top: 390px;
+		margin-left: -640px;
+	}
+}
+@media screen and (min-width: 1024px){
+	.header-text-adaptive{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 34px;
+	}
+	.scull-jpg-adaptive{
+		display: block;
+		margin-top: 20px;
+		width: 580px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 35px;
+		height: 75px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 10px;
+		margin-left: 15px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instrument-buttons{
+		display: flex;
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+	}
+	.instrument{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 20px;
+		height: 40px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-right: 15px;
+		margin-top: 15px;
+		transition: all linear 0.3s;
+	}
+	.instrument:hover{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.first-image{
+		position: fixed;
+		width: 1200px;
+		margin-top: 90px;
+		margin-left: -160px;
+	}
+	.second-image{
+		position: fixed;
+		width: 1070px;
+		margin-top: 590px;
+		margin-left: -940px;
+	}
+}
+@media screen and (min-width: 2560px){
+	.header-text-adaptive{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	h1{
+		font-size: 100px;
+	}
+	h2{
+		font-size: 64px;
+	}
+	.scull-jpg-adaptive{
+		display: block;
+		margin-top: 30px;
+		width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+	.button_menu{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 70px;
+		height: 140px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-top: 30px;
+		margin-left: 30px;
+		transition: all linear 0.3s;
+	}
+	.button_menu:focus{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.instrument-buttons{
+		display: flex;
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+	}
+	.instrument{
+		font-family: 'Tilt Warp', serif;
+		color: #fff;
+		font-size: 43px;
+		height: 76px;
+		background-color: #0a0909;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		margin-right: 10px;
+		margin-top: 15px;
+		transition: all linear 0.3s;
+	}
+	.instrument:hover{
+		background-color: #ffffff;
+		color: #0a0909;
+	}
+	.dropdown-menu{
+		width: 400px;
+		height: 330px;
+		border-radius: 10px;
+	}
+	.dropdown-item{
+		font-size: 44px;
+		margin-top: 4px;
+	}
+	.first-image{
+		position: fixed;
+		width: 2500px;
+		margin-top: 90px;
+		margin-left: -260px;
+	}
+	.second-image{
+		position: fixed;
+		width: 2190px;
+		margin-top: 990px;
+		margin-left: -1940px;
+	}
+}
