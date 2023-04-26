@@ -16,7 +16,11 @@ body{
 }
 .info-images{
 	display: flex;
-	justify-content: space-between;
+}
+footer{
+	position: fixed;
+	width: 100vw;
+	margin-top: 3400px;
 }
 @media screen and (min-width: 320px){
 	.header-text-adaptive{
@@ -111,15 +115,114 @@ body{
 	}
 	.first-image{
 		position: fixed;
-		width: 800px;
-		margin-top: 90px;
-		margin-left: -110px;
+		width: 1400px;
+	}
+	.square-size{
+		position: fixed;
+		width: 250px;
+	}
+	.square1-in-first{
+		margin-left: 25px;
+		margin-top: 990px;
+	}
+	.square2-in-first{
+		margin-left: 20px;
+		margin-top: 1100px;
+	}
+	.square3-in-first{
+		margin-left: 40px;
+		margin-top: 1230px;
+	}
+	.first-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 410px;
+		margin-top: 1190px;
+		position: fixed;
+		margin-left: 100px;
+		background-color: #292929;
+	}
+	.h1-plant-anatomy{
+		padding-left: 30px;
+		padding-right: 20px;
+		font-size: 30px;
+	}
+	.h2-plant-anatomy{
+		padding-right: 20px;
+		padding-left: 30px;
+		font-size: 15px;
+	}
+	.h1-them{
+		position: fixed;
+		font-family: 'Tilt Warp', cursive;
+		font-size: 42px;
+		color: #fff;
+		margin-left: 40px;
+		margin-top: 940px;
 	}
 	.second-image{
 		position: fixed;
-		width: 670px;
-		margin-top: 390px;
-		margin-left: -640px;
+		width: 1170px;
+	}
+	.second-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 410px;
+		margin-top: 1480px;
+		position: fixed;
+		margin-left: 290px;
+		background-color: #292929;
+	}
+	.h1-animal-anatomy{
+		font-size: 30px;
+		padding-right: 50px;
+		padding-left: 20px;
+	}
+	.h2-animal-anatomy{
+		font-size: 15px;
+		padding-right: 50px;
+		padding-left: 20px;
+	}
+	.square4-in-second{
+		margin-top: 1260px;
+		margin-left: 850px;
+	}
+	.square5-in-second{
+		margin-top: 1120px;
+		margin-left: 840px;
+	}
+	.third-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 400px;
+		margin-top: 1760px;
+		position: fixed;
+		margin-left: 90px;
+		background-color: #292929;
+	}
+	.h1-human-anatomy{
+		font-size: 30px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.h2-human-anatomy{
+		font-size: 15px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.third-image{
+		position: fixed;
+		width: 1400px;
+	}
+	.square4-in-third{
+		position: fixed;
+		width: 200px;
+		margin-top: 1680px;
+		margin-left: -20px;
+	}
+	.square3-in-third{
+		margin-top: 1800px;
+		margin-left: -30px;
 	}
 }
 @media screen and (min-width: 1024px){
@@ -186,15 +289,114 @@ body{
 	}
 	.first-image{
 		position: fixed;
-		width: 1200px;
-		margin-top: 490px;
-		margin-left: -160px;
+		width: 1400px;
+	}
+	.square-size{
+		position: fixed;
+		width: 300px;
+	}
+	.square1-in-first{
+		margin-left: 50px;
+		margin-top: 1060px;
+	}
+	.square2-in-first{
+		margin-left: 20px;
+		margin-top: 1200px;
+	}
+	.square3-in-first{
+		margin-left: 60px;
+		margin-top: 1340px;
+	}
+	.first-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 510px;
+		margin-top: 1290px;
+		position: fixed;
+		margin-left: 100px;
+		background-color: #292929;
+	}
+	.h1-plant-anatomy{
+		padding-left: 50px;
+		padding-right: 20px;
+		font-size: 40px;
+	}
+	.h2-plant-anatomy{
+		padding-right: 20px;
+		padding-left: 50px;
+		font-size: 20px;
+	}
+	.h1-them{
+		position: fixed;
+		font-family: 'Tilt Warp', cursive;
+		font-size: 53px;
+		color: #fff;
+		margin-left: 40px;
+		margin-top: 940px;
 	}
 	.second-image{
 		position: fixed;
-		width: 1070px;
-		margin-top: 1090px;
-		margin-left: -940px;
+		width: 1170px;
+	}
+	.second-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 510px;
+		margin-top: 1680px;
+		position: fixed;
+		margin-left: 390px;
+		background-color: #292929;
+	}
+	.h1-animal-anatomy{
+		font-size: 50px;
+		padding-right: 100px;
+		padding-left: 20px;
+	}
+	.h2-animal-anatomy{
+		font-size: 20px;
+		padding-right: 50px;
+		padding-left: 20px;
+	}
+	.square4-in-second{
+		margin-top: 1370px;
+		margin-left: 1390px;
+	}
+	.square5-in-second{
+		margin-top: 1170px;
+		margin-left: 1390px;
+	}
+	.third-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 500px;
+		margin-top: 2090px;
+		position: fixed;
+		margin-left: 190px;
+		background-color: #292929;
+	}
+	.h1-human-anatomy{
+		font-size: 50px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.h2-human-anatomy{
+		font-size: 20px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.third-image{
+		position: fixed;
+		width: 1400px;
+	}
+	.square4-in-third{
+		position: fixed;
+		width: 300px;
+		margin-top: 1980px;
+		margin-left: 10px;
+	}
+	.square3-in-third{
+		margin-top: 2140px;
+		margin-left: 20px;
 	}
 }
 @media screen and (min-width: 1440px){
@@ -211,10 +413,10 @@ body{
 		margin-top: 120px;
 		margin-left: 40px;
 	}
-	h1{
+	.h1-Anatomy{
 		font-size: 40px;
 	}
-	h2{
+	.h2-Anatomy{
 		font-size: 34px;
 	}
 	.scull-jpg-adaptive{
@@ -265,14 +467,113 @@ body{
 	.first-image{
 		position: fixed;
 		width: 1400px;
-		margin-top: 790px;
-		margin-left: -160px;
+	}
+	.square-size{
+		position: fixed;
+		width: 500px;
+	}
+	.square1-in-first{
+		margin-left: 60px;
+		margin-top: 950px;
+	}
+	.square2-in-first{
+		margin-left: 50px;
+		margin-top: 1200px;
+	}
+	.square3-in-first{
+		margin-left: 160px;
+		margin-top: 1420px;
+	}
+	.first-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 800px;
+		margin-top: 1240px;
+		position: fixed;
+		margin-left: 290px;
+		background-color: #292929;
+	}
+	.h1-plant-anatomy{
+		padding-left: 50px;
+		padding-right: 20px;
+		font-size: 80px;
+	}
+	.h2-plant-anatomy{
+		padding-right: 20px;
+		padding-left: 50px;
+		font-size: 30px;
+	}
+	.h1-them{
+		position: fixed;
+		font-family: 'Tilt Warp', cursive;
+		font-size: 90px;
+		color: #fff;
+		margin-left: 40px;
+		margin-top: 940px;
 	}
 	.second-image{
 		position: fixed;
 		width: 1170px;
-		margin-top: 1390px;
-		margin-left: -1140px;
+	}
+	.second-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 800px;
+		margin-top: 1980px;
+		position: fixed;
+		margin-left: 790px;
+		background-color: #292929;
+	}
+	.h1-animal-anatomy{
+		font-size: 80px;
+		padding-right: 50px;
+		padding-left: 20px;
+	}
+	.h2-animal-anatomy{
+		font-size: 30px;
+		padding-right: 50px;
+		padding-left: 20px;
+	}
+	.square4-in-second{
+		margin-top: 1730px;
+		margin-left: 1650px;
+	}
+	.square5-in-second{
+		margin-top: 1520px;
+		margin-left: 1640px;
+	}
+	.third-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 800px;
+		margin-top: 2640px;
+		position: fixed;
+		margin-left: 190px;
+		background-color: #292929;
+	}
+	.h1-human-anatomy{
+		font-size: 80px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.h2-human-anatomy{
+		font-size: 30px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.third-image{
+		position: fixed;
+		width: 1400px;
+	}
+	.square4-in-third{
+		position: fixed;
+		width: 400px;
+		margin-top: 2480px;
+		margin-left: -60px;
+	}
+	.square3-in-third{
+		margin-top: 2680px;
+		margin-left: -90px;
 	}
 }
 @media screen and (min-width: 2560px){
@@ -348,14 +649,114 @@ body{
 	}
 	.first-image{
 		position: fixed;
-		width: 2500px;
+		width: 1400px;
+	}
+	.square-size{
+		position: fixed;
+		width: 700px;
+	}
+	.square1-in-first{
+		margin-left: 30px;
+		margin-top: 460px;
+	}
+	.square2-in-first{
+		margin-left: 20px;
+		margin-top: 750px;
+	}
+	.square3-in-first{
+		margin-left: 160px;
+		margin-top: 1090px;
+	}
+	.first-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 1100px;
 		margin-top: 1290px;
-		margin-left: -260px;
+		position: fixed;
+		margin-left: 250px;
+		background-color: #292929;
+	}
+	.h1-plant-anatomy{
+		padding-left: 100px;
+		padding-right: 20px;
+		font-size: 80px;
+	}
+	.h2-plant-anatomy{
+		padding-right: 20px;
+		padding-left: 100px;
+		font-size: 40px;
+	}
+	.h1-them{
+		position: fixed;
+		font-family: 'Tilt Warp', cursive;
+		font-size: 90px;
+		color: #fff;
+		margin-left: 40px;
+		margin-top: 940px;
 	}
 	.second-image{
 		position: fixed;
-		width: 2190px;
-		margin-top: 2390px;
-		margin-left: -1940px;
+		width: 1170px;
 	}
+	.second-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 1100px;
+		margin-top: 1980px;
+		position: fixed;
+		margin-left: 790px;
+		background-color: #292929;
+	}
+	.h1-animal-anatomy{
+		font-size: 90px;
+		padding-right: 100px;
+		padding-left: 20px;
+	}
+	.h2-animal-anatomy{
+		font-size: 40px;
+		padding-right: 100px;
+		padding-left: 20px;
+	}
+	.square4-in-second{
+		margin-top: 890px;
+		margin-left: 2500px;
+	}
+	.square5-in-second{
+		margin-top: 560px;
+		margin-left: 2540px;
+	}
+	.third-text{
+		color: #fff;
+		font-family: 'Tilt Warp', cursive;
+		width: 1100px;
+		margin-top: 2640px;
+		position: fixed;
+		margin-left: 190px;
+		background-color: #292929;
+	}
+	.h1-human-anatomy{
+		font-size: 90px;
+		padding-left: 100px;
+		padding-right: 20px;
+	}
+	.h2-human-anatomy{
+		font-size: 40px;
+		padding-left: 100px;
+		padding-right: 20px;
+	}
+	.third-image{
+		position: fixed;
+		width: 1400px;
+	}
+	.square4-in-third{
+		position: fixed;
+		width: 500px;
+		margin-top: 2480px;
+		margin-left: -120px;
+	}
+	.square3-in-third{
+		margin-top: 2680px;
+		margin-left: -170px;
+	}
+
 }
